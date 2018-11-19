@@ -2,12 +2,12 @@
 <testng-results skipped="7" failed="6" total="15" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="99141" started-at="2018-11-19T16:38:15Z" finished-at="2018-11-19T16:39:54Z">
+  <suite name="RegressionSuite" duration-ms="132186" started-at="2018-11-19T17:30:06Z" finished-at="2018-11-19T17:32:18Z">
     <groups>
     </groups>
-    <test name="Chrome test" duration-ms="37178" started-at="2018-11-19T16:38:15Z" finished-at="2018-11-19T16:38:52Z">
+    <test name="Chrome test" duration-ms="35942" started-at="2018-11-19T17:30:06Z" finished-at="2018-11-19T17:30:42Z">
       <class name="test_fbLogin.TC1_LoginWithInvalidCredential">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@566776ad]" name="setUp" is-config="true" duration-ms="9476" started-at="2018-11-19T11:38:15Z" finished-at="2018-11-19T11:38:24Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@566776ad]" name="setUp" is-config="true" duration-ms="8393" started-at="2018-11-19T12:30:06Z" finished-at="2018-11-19T12:30:14Z">
           <params>
             <param index="0">
               <value>
@@ -18,33 +18,29 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test_fbLoginWithInvalidCredential()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@566776ad]" name="test_fbLoginWithInvalidCredential" duration-ms="463" started-at="2018-11-19T11:38:24Z" finished-at="2018-11-19T11:38:25Z">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method status="FAIL" signature="test_fbLoginWithInvalidCredential()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@566776ad]" name="test_fbLoginWithInvalidCredential" duration-ms="609" started-at="2018-11-19T12:30:14Z" finished-at="2018-11-19T12:30:15Z">
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='u_0_3']"}
+              <![CDATA[element not visible
   (Session info: chrome=70.0.3538.102)
   (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61999}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: cb4eeef54b14b256d8ee87f301dedb6c
-*** Element info: {Using=xpath, value=//*[@id='u_0_3']}]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64401}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: e25aec39c76856a316573d95c74be485]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id='u_0_3']"}
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
   (Session info: chrome=70.0.3538.102)
   (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.14.1 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:61999}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: cb4eeef54b14b256d8ee87f301dedb6c
-*** Element info: {Using=xpath, value=//*[@id='u_0_3']}
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64401}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: e25aec39c76856a316573d95c74be485
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -57,10 +53,8 @@ Session ID: cb4eeef54b14b256d8ee87f301dedb6c
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
 	at utils.SWDFunctions.clickByXpath(SWDFunctions.java:36)
 	at test_fbLogin.TC1_LoginWithInvalidCredential.test_fbLoginWithInvalidCredential(TC1_LoginWithInvalidCredential.java:23)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -88,21 +82,21 @@ Session ID: cb4eeef54b14b256d8ee87f301dedb6c
 	at org.testng.TestNG.main(TestNG.java:1324)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_fbLoginWithInvalidCredential -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@566776ad]" name="tearDown" is-config="true" duration-ms="197" started-at="2018-11-19T11:38:25Z" finished-at="2018-11-19T11:38:25Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@566776ad]" name="tearDown" is-config="true" duration-ms="181" started-at="2018-11-19T12:30:15Z" finished-at="2018-11-19T12:30:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@566776ad]" name="closeDriver" is-config="true" duration-ms="21" started-at="2018-11-19T11:38:52Z" finished-at="2018-11-19T11:38:52Z">
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@566776ad]" name="closeDriver" is-config="true" duration-ms="21" started-at="2018-11-19T12:30:42Z" finished-at="2018-11-19T12:30:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
       </class> <!-- test_fbLogin.TC1_LoginWithInvalidCredential -->
       <class name="test_fbLogin.TC2_LoginWithInvalidPassword">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@6108b2d7]" name="setUp" is-config="true" duration-ms="6483" started-at="2018-11-19T11:38:25Z" finished-at="2018-11-19T11:38:32Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@6108b2d7]" name="setUp" is-config="true" duration-ms="6409" started-at="2018-11-19T12:30:15Z" finished-at="2018-11-19T12:30:21Z">
           <params>
             <param index="0">
               <value>
@@ -113,7 +107,7 @@ Session ID: cb4eeef54b14b256d8ee87f301dedb6c
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test_fbLoginWithInvalidPassword()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@6108b2d7]" name="test_fbLoginWithInvalidPassword" duration-ms="430" started-at="2018-11-19T11:38:32Z" finished-at="2018-11-19T11:38:32Z">
+        <test-method status="FAIL" signature="test_fbLoginWithInvalidPassword()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@6108b2d7]" name="test_fbLoginWithInvalidPassword" duration-ms="426" started-at="2018-11-19T12:30:21Z" finished-at="2018-11-19T12:30:22Z">
           <exception class="org.openqa.selenium.ElementNotVisibleException">
             <message>
               <![CDATA[element not visible
@@ -123,8 +117,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62027}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: f800acaa615a9b154672474c26b4b907]]>
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64422}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: c59ffb53c8e11b68f9fb557aff03bb91]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not visible
@@ -134,8 +128,8 @@ Command duration or timeout: 0 milliseconds
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62027}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: f800acaa615a9b154672474c26b4b907
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64422}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: c59ffb53c8e11b68f9fb557aff03bb91
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -181,13 +175,13 @@ Session ID: f800acaa615a9b154672474c26b4b907
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_fbLoginWithInvalidPassword -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@6108b2d7]" name="tearDown" is-config="true" duration-ms="120" started-at="2018-11-19T11:38:32Z" finished-at="2018-11-19T11:38:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@6108b2d7]" name="tearDown" is-config="true" duration-ms="189" started-at="2018-11-19T12:30:22Z" finished-at="2018-11-19T12:30:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test_fbLogin.TC2_LoginWithInvalidPassword -->
       <class name="test_fbSignup.CreateFBAccount">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbSignup.CreateFBAccount@1554909b]" name="setUp" is-config="true" duration-ms="7088" started-at="2018-11-19T11:38:32Z" finished-at="2018-11-19T11:38:39Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbSignup.CreateFBAccount@1554909b]" name="setUp" is-config="true" duration-ms="7228" started-at="2018-11-19T12:30:22Z" finished-at="2018-11-19T12:30:29Z">
           <params>
             <param index="0">
               <value>
@@ -198,7 +192,7 @@ Session ID: f800acaa615a9b154672474c26b4b907
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyDropdownFuntionlity()[pri:0, instance:test_fbSignup.CreateFBAccount@1554909b]" name="verifyDropdownFuntionlity" duration-ms="20" started-at="2018-11-19T11:38:39Z" finished-at="2018-11-19T11:38:39Z">
+        <test-method status="FAIL" signature="verifyDropdownFuntionlity()[pri:0, instance:test_fbSignup.CreateFBAccount@1554909b]" name="verifyDropdownFuntionlity" duration-ms="25" started-at="2018-11-19T12:30:29Z" finished-at="2018-11-19T12:30:29Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"id","selector":""}
@@ -209,8 +203,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62056}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 1852b25da7f7627812250cac555c2b52
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64450}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: d021825a3590238019c8d1c17a36c107
 *** Element info: {Using=id, value=}]]>
             </message>
             <full-stacktrace>
@@ -222,8 +216,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:62056}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
-Session ID: 1852b25da7f7627812250cac555c2b52
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578706 (5f725d1b4f0a4a..., userDataDir: /var/folders/34/5xq3fsv12wg...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64450}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 70.0.3538.102, webStorageEnabled: true}
+Session ID: d021825a3590238019c8d1c17a36c107
 *** Element info: {Using=id, value=}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -272,13 +266,13 @@ Session ID: 1852b25da7f7627812250cac555c2b52
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDropdownFuntionlity -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbSignup.CreateFBAccount@1554909b]" name="tearDown" is-config="true" duration-ms="118" started-at="2018-11-19T11:38:39Z" finished-at="2018-11-19T11:38:39Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbSignup.CreateFBAccount@1554909b]" name="tearDown" is-config="true" duration-ms="167" started-at="2018-11-19T12:30:29Z" finished-at="2018-11-19T12:30:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test_fbSignup.CreateFBAccount -->
       <class name="test_assert.AssertTesting">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="setUp" is-config="true" duration-ms="5999" started-at="2018-11-19T11:38:39Z" finished-at="2018-11-19T11:38:45Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="setUp" is-config="true" duration-ms="6604" started-at="2018-11-19T12:30:30Z" finished-at="2018-11-19T12:30:36Z">
           <params>
             <param index="0">
               <value>
@@ -289,15 +283,15 @@ Session ID: 1852b25da7f7627812250cac555c2b52
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAssertion()[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="testAssertion" duration-ms="46" started-at="2018-11-19T11:38:45Z" finished-at="2018-11-19T11:38:45Z">
+        <test-method status="PASS" signature="testAssertion()[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="testAssertion" duration-ms="46" started-at="2018-11-19T12:30:36Z" finished-at="2018-11-19T12:30:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAssertion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="tearDown" is-config="true" duration-ms="177" started-at="2018-11-19T11:38:45Z" finished-at="2018-11-19T11:38:46Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="tearDown" is-config="true" duration-ms="165" started-at="2018-11-19T12:30:36Z" finished-at="2018-11-19T12:30:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="setUp" is-config="true" duration-ms="6314" started-at="2018-11-19T11:38:46Z" finished-at="2018-11-19T11:38:52Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="setUp" is-config="true" duration-ms="5230" started-at="2018-11-19T12:30:36Z" finished-at="2018-11-19T12:30:42Z">
           <params>
             <param index="0">
               <value>
@@ -308,7 +302,7 @@ Session ID: 1852b25da7f7627812250cac555c2b52
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="testSoftAssert()[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="testSoftAssert" duration-ms="39" started-at="2018-11-19T11:38:52Z" finished-at="2018-11-19T11:38:52Z">
+        <test-method status="SKIP" signature="testSoftAssert()[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="testSoftAssert" duration-ms="47" started-at="2018-11-19T12:30:42Z" finished-at="2018-11-19T12:30:42Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping it becuase this test case no longer needed: JIRA-1233]]>
@@ -345,15 +339,15 @@ Session ID: 1852b25da7f7627812250cac555c2b52
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoftAssert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="tearDown" is-config="true" duration-ms="173" started-at="2018-11-19T11:38:52Z" finished-at="2018-11-19T11:38:52Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@6bf256fa]" name="tearDown" is-config="true" duration-ms="188" started-at="2018-11-19T12:30:42Z" finished-at="2018-11-19T12:30:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test_assert.AssertTesting -->
     </test> <!-- Chrome test -->
-    <test name="Firefox test" duration-ms="61896" started-at="2018-11-19T16:38:52Z" finished-at="2018-11-19T16:39:54Z">
+    <test name="Firefox test" duration-ms="96181" started-at="2018-11-19T17:30:42Z" finished-at="2018-11-19T17:32:18Z">
       <class name="test_fbLogin.TC1_LoginWithInvalidCredential">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@5f2050f6]" name="setUp" is-config="true" duration-ms="9488" started-at="2018-11-19T11:38:52Z" finished-at="2018-11-19T11:39:02Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@5f2050f6]" name="setUp" is-config="true" duration-ms="12375" started-at="2018-11-19T12:30:42Z" finished-at="2018-11-19T12:30:54Z">
           <params>
             <param index="0">
               <value>
@@ -364,23 +358,23 @@ Session ID: 1852b25da7f7627812250cac555c2b52
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test_fbLoginWithInvalidCredential()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@5f2050f6]" name="test_fbLoginWithInvalidCredential" duration-ms="618" started-at="2018-11-19T11:39:02Z" finished-at="2018-11-19T11:39:02Z">
+        <test-method status="FAIL" signature="test_fbLoginWithInvalidCredential()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@5f2050f6]" name="test_fbLoginWithInvalidCredential" duration-ms="991" started-at="2018-11-19T12:30:54Z" finished-at="2018-11-19T12:30:55Z">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[Element <input id="u_0_3" name="timezone" type="hidden"> could not be scrolled into view
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13618, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b54f2912-4e9e-d940-9e9b-64e67861051f]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15106, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f3054702-62eb-4e44-8aab-0c942b43fbee]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="u_0_3" name="timezone" type="hidden"> could not be scrolled into view
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13618, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b54f2912-4e9e-d940-9e9b-64e67861051f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15106, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f3054702-62eb-4e44-8aab-0c942b43fbee
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -424,27 +418,27 @@ Session ID: b54f2912-4e9e-d940-9e9b-64e67861051f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_fbLoginWithInvalidCredential -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@5f2050f6]" name="tearDown" is-config="true" duration-ms="686" started-at="2018-11-19T11:39:02Z" finished-at="2018-11-19T11:39:03Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@5f2050f6]" name="tearDown" is-config="true" duration-ms="964" started-at="2018-11-19T12:30:55Z" finished-at="2018-11-19T12:30:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="FAIL" signature="closeDriver()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@5f2050f6]" name="closeDriver" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="FAIL" signature="closeDriver()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@5f2050f6]" name="closeDriver" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Tried to run command without establishing a connection
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13618, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b54f2912-4e9e-d940-9e9b-64e67861051f]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15106, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f3054702-62eb-4e44-8aab-0c942b43fbee]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.SessionNotCreatedException: Tried to run command without establishing a connection
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13618, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: b54f2912-4e9e-d940-9e9b-64e67861051f
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15106, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f3054702-62eb-4e44-8aab-0c942b43fbee
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -487,7 +481,7 @@ Session ID: b54f2912-4e9e-d940-9e9b-64e67861051f
         </test-method> <!-- closeDriver -->
       </class> <!-- test_fbLogin.TC1_LoginWithInvalidCredential -->
       <class name="test_fbLogin.TC2_LoginWithInvalidPassword">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@3b81a1bc]" name="setUp" is-config="true" duration-ms="12926" started-at="2018-11-19T11:39:03Z" finished-at="2018-11-19T11:39:16Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@3b81a1bc]" name="setUp" is-config="true" duration-ms="18362" started-at="2018-11-19T12:30:56Z" finished-at="2018-11-19T12:31:15Z">
           <params>
             <param index="0">
               <value>
@@ -498,23 +492,23 @@ Session ID: b54f2912-4e9e-d940-9e9b-64e67861051f
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="test_fbLoginWithInvalidPassword()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@3b81a1bc]" name="test_fbLoginWithInvalidPassword" duration-ms="626" started-at="2018-11-19T11:39:16Z" finished-at="2018-11-19T11:39:16Z">
+        <test-method status="FAIL" signature="test_fbLoginWithInvalidPassword()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@3b81a1bc]" name="test_fbLoginWithInvalidPassword" duration-ms="1393" started-at="2018-11-19T12:31:15Z" finished-at="2018-11-19T12:31:16Z">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[Element <input id="u_0_3" name="timezone" type="hidden"> could not be scrolled into view
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13628, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1149f597-ade8-3446-871d-bde06b06e358]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15113, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 525f6c79-b05d-f548-a454-79205d802911]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="u_0_3" name="timezone" type="hidden"> could not be scrolled into view
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13628, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 1149f597-ade8-3446-871d-bde06b06e358
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15113, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 525f6c79-b05d-f548-a454-79205d802911
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -558,13 +552,13 @@ Session ID: 1149f597-ade8-3446-871d-bde06b06e358
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_fbLoginWithInvalidPassword -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@3b81a1bc]" name="tearDown" is-config="true" duration-ms="583" started-at="2018-11-19T11:39:16Z" finished-at="2018-11-19T11:39:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@3b81a1bc]" name="tearDown" is-config="true" duration-ms="772" started-at="2018-11-19T12:31:16Z" finished-at="2018-11-19T12:31:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test_fbLogin.TC2_LoginWithInvalidPassword -->
       <class name="test_fbSignup.CreateFBAccount">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbSignup.CreateFBAccount@64616ca2]" name="setUp" is-config="true" duration-ms="12822" started-at="2018-11-19T11:39:17Z" finished-at="2018-11-19T11:39:30Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_fbSignup.CreateFBAccount@64616ca2]" name="setUp" is-config="true" duration-ms="16404" started-at="2018-11-19T12:31:17Z" finished-at="2018-11-19T12:31:33Z">
           <params>
             <param index="0">
               <value>
@@ -575,7 +569,7 @@ Session ID: 1149f597-ade8-3446-871d-bde06b06e358
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyDropdownFuntionlity()[pri:0, instance:test_fbSignup.CreateFBAccount@64616ca2]" name="verifyDropdownFuntionlity" duration-ms="182" started-at="2018-11-19T11:39:30Z" finished-at="2018-11-19T11:39:30Z">
+        <test-method status="FAIL" signature="verifyDropdownFuntionlity()[pri:0, instance:test_fbSignup.CreateFBAccount@64616ca2]" name="verifyDropdownFuntionlity" duration-ms="420" started-at="2018-11-19T12:31:33Z" finished-at="2018-11-19T12:31:34Z">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[Given css selector expression "#" is invalid: InvalidSelectorError: '#' is not a valid selector: "#"
@@ -583,8 +577,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13635, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 49793af4-5564-6f4d-ad61-ed1feea9b265
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15120, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: be26c76e-b1c0-ce4a-8616-3fe6d4cfc10a
 *** Element info: {Using=id, value=}]]>
             </message>
             <full-stacktrace>
@@ -593,8 +587,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
 System info: host: 'Sadeks-MacBook-Pro.local', ip: '2604:2000:9903:1400:0:0:0:7%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.1', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 13635, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 49793af4-5564-6f4d-ad61-ed1feea9b265
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15120, moz:profile: /var/folders/34/5xq3fsv12wg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.2.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: be26c76e-b1c0-ce4a-8616-3fe6d4cfc10a
 *** Element info: {Using=id, value=}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -641,13 +635,13 @@ Session ID: 49793af4-5564-6f4d-ad61-ed1feea9b265
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDropdownFuntionlity -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbSignup.CreateFBAccount@64616ca2]" name="tearDown" is-config="true" duration-ms="2737" started-at="2018-11-19T11:39:30Z" finished-at="2018-11-19T11:39:33Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_fbSignup.CreateFBAccount@64616ca2]" name="tearDown" is-config="true" duration-ms="1108" started-at="2018-11-19T12:31:34Z" finished-at="2018-11-19T12:31:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test_fbSignup.CreateFBAccount -->
       <class name="test_assert.AssertTesting">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="setUp" is-config="true" duration-ms="9961" started-at="2018-11-19T11:39:33Z" finished-at="2018-11-19T11:39:43Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="setUp" is-config="true" duration-ms="18535" started-at="2018-11-19T12:31:35Z" finished-at="2018-11-19T12:31:53Z">
           <params>
             <param index="0">
               <value>
@@ -658,15 +652,15 @@ Session ID: 49793af4-5564-6f4d-ad61-ed1feea9b265
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testAssertion()[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="testAssertion" duration-ms="334" started-at="2018-11-19T11:39:43Z" finished-at="2018-11-19T11:39:43Z">
+        <test-method status="PASS" signature="testAssertion()[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="testAssertion" duration-ms="804" started-at="2018-11-19T12:31:53Z" finished-at="2018-11-19T12:31:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAssertion -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="tearDown" is-config="true" duration-ms="702" started-at="2018-11-19T11:39:43Z" finished-at="2018-11-19T11:39:44Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="tearDown" is-config="true" duration-ms="1123" started-at="2018-11-19T12:31:54Z" finished-at="2018-11-19T12:31:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="setUp" is-config="true" duration-ms="9300" started-at="2018-11-19T11:39:44Z" finished-at="2018-11-19T11:39:53Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="setUp" is-config="true" duration-ms="18885" started-at="2018-11-19T12:31:55Z" finished-at="2018-11-19T12:32:14Z">
           <params>
             <param index="0">
               <value>
@@ -677,7 +671,7 @@ Session ID: 49793af4-5564-6f4d-ad61-ed1feea9b265
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="testSoftAssert()[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="testSoftAssert" duration-ms="237" started-at="2018-11-19T11:39:53Z" finished-at="2018-11-19T11:39:53Z">
+        <test-method status="SKIP" signature="testSoftAssert()[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="testSoftAssert" duration-ms="1001" started-at="2018-11-19T12:32:14Z" finished-at="2018-11-19T12:32:15Z">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping it becuase this test case no longer needed: JIRA-1233]]>
@@ -714,19 +708,19 @@ Session ID: 49793af4-5564-6f4d-ad61-ed1feea9b265
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoftAssert -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="tearDown" is-config="true" duration-ms="635" started-at="2018-11-19T11:39:53Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@13fee20c]" name="tearDown" is-config="true" duration-ms="2985" started-at="2018-11-19T12:32:15Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- test_assert.AssertTesting -->
     </test> <!-- Firefox test -->
-    <test name="Internet Exp test" duration-ms="4" started-at="2018-11-19T16:39:54Z" finished-at="2018-11-19T16:39:54Z">
+    <test name="Internet Exp test" duration-ms="3" started-at="2018-11-19T17:32:18Z" finished-at="2018-11-19T17:32:18Z">
       <class name="test_fbLogin.TC1_LoginWithInvalidCredential">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2018-11-19T11:38:15Z" finished-at="2018-11-19T11:38:15Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="beforeSuite" is-config="true" duration-ms="11" started-at="2018-11-19T12:30:06Z" finished-at="2018-11-19T12:30:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <params>
             <param index="0">
               <value>
@@ -769,76 +763,76 @@ Session ID: 49793af4-5564-6f4d-ad61-ed1feea9b265
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="test_fbLoginWithInvalidCredential()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="test_fbLoginWithInvalidCredential" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test_fbLoginWithInvalidCredential -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="closeDriver()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="closeDriver" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="test_fbLoginWithInvalidCredential()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="test_fbLoginWithInvalidCredential" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_fbLoginWithInvalidCredential -->
+        <test-method status="SKIP" signature="closeDriver()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="closeDriver" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="afterSuite()[pri:0, instance:test_fbLogin.TC1_LoginWithInvalidCredential@1324409e]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
       </class> <!-- test_fbLogin.TC1_LoginWithInvalidCredential -->
       <class name="test_fbLogin.TC2_LoginWithInvalidPassword">
-        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@2c6a3f77]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@2c6a3f77]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@2c6a3f77]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@2c6a3f77]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="test_fbLoginWithInvalidPassword()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@2c6a3f77]" name="test_fbLoginWithInvalidPassword" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="test_fbLoginWithInvalidPassword()[pri:0, instance:test_fbLogin.TC2_LoginWithInvalidPassword@2c6a3f77]" name="test_fbLoginWithInvalidPassword" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_fbLoginWithInvalidPassword -->
       </class> <!-- test_fbLogin.TC2_LoginWithInvalidPassword -->
       <class name="test_fbSignup.CreateFBAccount">
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_fbSignup.CreateFBAccount@246ae04d]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_fbSignup.CreateFBAccount@246ae04d]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="verifyDropdownFuntionlity()[pri:0, instance:test_fbSignup.CreateFBAccount@246ae04d]" name="verifyDropdownFuntionlity" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="verifyDropdownFuntionlity()[pri:0, instance:test_fbSignup.CreateFBAccount@246ae04d]" name="verifyDropdownFuntionlity" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDropdownFuntionlity -->
-        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:test_fbSignup.CreateFBAccount@246ae04d]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:test_fbSignup.CreateFBAccount@246ae04d]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
       </class> <!-- test_fbSignup.CreateFBAccount -->
       <class name="test_assert.AssertTesting">
-        <test-method status="SKIP" signature="testAssertion()[pri:0, instance:test_assert.AssertTesting@62043840]" name="testAssertion" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@62043840]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="SKIP" signature="testAssertion()[pri:0, instance:test_assert.AssertTesting@62043840]" name="testAssertion" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAssertion -->
-        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@62043840]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@62043840]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@62043840]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@62043840]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@62043840]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="SKIP" signature="testSoftAssert()[pri:0, instance:test_assert.AssertTesting@62043840]" name="testSoftAssert" duration-ms="0" started-at="2018-11-19T11:39:54Z" finished-at="2018-11-19T11:39:54Z">
+        <test-method status="SKIP" signature="testSoftAssert()[pri:0, instance:test_assert.AssertTesting@62043840]" name="testSoftAssert" duration-ms="1" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSoftAssert -->
+        <test-method status="SKIP" signature="setUp(java.lang.String)[pri:0, instance:test_assert.AssertTesting@62043840]" name="setUp" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:test_assert.AssertTesting@62043840]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-11-19T12:32:18Z" finished-at="2018-11-19T12:32:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- test_assert.AssertTesting -->
     </test> <!-- Internet Exp test -->
   </suite> <!-- RegressionSuite -->
